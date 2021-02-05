@@ -1,0 +1,25 @@
+{
+    "name": "maxlzp/etrade",
+    "description": "test task from etrade",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Maxim Linenko",
+            "email": "linenko.maxim@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "maxlzp\\etrade\\" : "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "maxlzp\\etrade\\tests\\": "tests/"
+        }
+    }
+
+}
