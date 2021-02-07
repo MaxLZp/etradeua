@@ -1,0 +1,25 @@
+@import "colors";
+@import "filter-input";
+@import "filter-table";
+
+::placeholder {
+  color: $placeholder-color;
+}
+
+.table-filter {
+  &__header {
+    text-align: center;
+  }
+
+  &__inputs {
+    margin: 1rem 0;
+    text-align: center;
+  }
+
+  &__table {
+    width: 100%;
+  }
+}
+
+
+
