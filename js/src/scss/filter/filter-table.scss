@@ -1,0 +1,31 @@
+.filter-table {
+  border-collapse: collapse;
+  padding: 1rem;
+  text-align: center;
+
+
+  &__row {
+    display: table-row;
+
+    &:hover {
+      background-color: $row-hover-color;
+    }
+
+    &--hidden {
+      display: none;
+    }
+  }
+
+  &__cell {
+    border: 1px solid $border-color;
+    font-size: .75rem;
+
+    &--match {
+      background-color: $cell-match-background-color;
+    }
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
